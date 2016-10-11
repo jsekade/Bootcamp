@@ -104,6 +104,6 @@ find_by_price = gets.chomp
  home_price = homes.find do |pr|
   pr.price == find_by_price.to_i
 end
-puts "Hemos encontrado esta casa por ese precio"
+puts "Hemos encontrado esta casa por ese precio:"
 puts home_price.name
 
