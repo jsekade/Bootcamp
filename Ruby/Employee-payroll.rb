@@ -38,7 +38,7 @@ class MultiPaymentEmployee < Employee
 		@hours_worked = hours_worked
 	end
 	def calculate_salary
-		weekly_payment = @anual_salary/52)+((@hours_worked-40)*275
+		weekly_payment = (@anual_salary/52)+((@hours_worked-40)*275)
 	end
 end
 
